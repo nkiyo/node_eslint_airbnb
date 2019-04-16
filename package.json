@@ -8,5 +8,9 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.17.1"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js",
+    "fmt": "prettier *.js --write"
   }
 }
