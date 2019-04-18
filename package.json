@@ -7,10 +7,12 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-import": "^2.17.1"
+    "eslint-plugin-import": "^2.17.1",
+    "jest": "^24.7.1"
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint *.js",
-    "fmt": "prettier *.js --write"
+    "fmt": "prettier *.js --write",
+    "unit": "NODE_ENV=test jest"
   }
 }
