@@ -11,7 +11,8 @@
     "jest": "^24.7.1"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint *.js",
+    "lint": "npx eslint *.js",
+    "fix": "npx eslint --fix *.js",
     "fmt": "prettier *.js --write",
     "unit": "NODE_ENV=test jest"
   }

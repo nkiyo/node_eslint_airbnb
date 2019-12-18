@@ -3,7 +3,7 @@ function sum(a, b) {
     bar: 'baz',
     qux: 'quux',
   }
-  //console.log(`${c}`);
+  // console.log(`${c}`);
   return a + b
 }
 
