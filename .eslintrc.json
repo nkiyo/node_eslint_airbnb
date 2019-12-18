@@ -4,5 +4,9 @@
     "node": true,
     "jest": true
   },
-  "extends": ["airbnb-base", "prettier"]
+  "extends": ["airbnb-base"],
+  "rules": {
+    "comma-dangle": ["error", "always"],
+    "semi": ["error", "never"]
+  }
 }
